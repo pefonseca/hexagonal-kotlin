@@ -12,4 +12,6 @@ class AddressEntity(
         address.city,
         address.state
     )
+
+    fun toAddress() = Address(street, city, state)
 }
