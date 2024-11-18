@@ -5,7 +5,6 @@ import com.pefonseca.hexagonal.adapters.out.repository.entity.CustomerEntity
 import com.pefonseca.hexagonal.application.core.domain.Customer
 import com.pefonseca.hexagonal.application.ports.out.UpdateCustomerOutputPort
 import org.springframework.stereotype.Component
-import org.springframework.stereotype.Repository
 
 @Component
 class UpdateCustomerAdapter(

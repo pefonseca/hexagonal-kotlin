@@ -1,6 +1,5 @@
 package com.pefonseca.hexagonal.application.core.usecase
 
-import com.pefonseca.hexagonal.application.core.domain.Customer
 import com.pefonseca.hexagonal.application.core.exceptions.ObjectNotFoundException
 import com.pefonseca.hexagonal.application.ports.`in`.FindCustomerByIdInputPort
 import com.pefonseca.hexagonal.application.ports.out.FindCustomerByIdOutputPort
